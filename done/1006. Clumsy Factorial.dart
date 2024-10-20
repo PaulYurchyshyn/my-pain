@@ -1,5 +1,8 @@
 class Solution {
   int clumsy(int n) {
+    if (n <= 2) {
+      return n;
+    }
     List<int> parts = [];
     bool step1 = true, step2 = false, step3 = false, step4 = false;
     int temp = 0;
